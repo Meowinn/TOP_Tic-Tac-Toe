@@ -8,7 +8,7 @@ const board_object = () => {
     const joiner = function(){
         if(board_row1.join("") == 'XXX'){
             winner.classList.add('won');
-            winner.textContent = `${p1.player1} wins the game fucker!`
+            winner.textContent = `${p1.player1} wins the game!`
             announce.appendChild(winner);
             for(const game_box of game_boxes){
                 game_box.style.pointerEvents = "none";
@@ -16,7 +16,7 @@ const board_object = () => {
         } 
         else if (board_row1.join("") == 'OOO'){
             winner.classList.add('won');
-            winner.textContent = `${p2.player2} wins the game you dick!`
+            winner.textContent = `${p2.player2} wins the game!`
             announce.appendChild(winner);
             for(const game_box of game_boxes){
                 game_box.style.pointerEvents = "none";
@@ -26,7 +26,7 @@ const board_object = () => {
     }
     return {board_array, board_row1, joiner}
 }
-//if statement when x is the last input?
+
 const gameBoard = board_object();
 
 
