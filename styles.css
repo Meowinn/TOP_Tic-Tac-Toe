@@ -2,7 +2,16 @@
 h1 {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.won {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(77, 0, 87);
 }
 
 .game_container {
@@ -28,9 +37,10 @@ h1 {
 .reset {
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
-#resetBtn:hover {
+button:hover {
     cursor: pointer;
     background-color: blanchedalmond;
 }
@@ -44,4 +54,12 @@ button {
 
 .changeColor {
     background-color: lightcoral;
+}
+
+.changeColor2 {
+    background-color: aquamarine;
+}
+
+.disable {
+    pointer-events: none;
 }
