@@ -77,12 +77,6 @@ for(const row1 of row_one) {
    
 }
 
-const testing = document.getElementById('testing');
-testing.addEventListener('click', function(){
-    gameBoard.board_array.push("Test");
-    console.log(gameBoard.board_array);
-})
-
 const reset = document.getElementById('resetBtn');
 reset.addEventListener('click', function(){
     location.reload();
