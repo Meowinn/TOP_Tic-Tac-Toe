@@ -1,0 +1,65 @@
+#main_container,
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.won {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(77, 0, 87);
+}
+
+.game_container {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    border: 1px solid;
+    width: 500px;
+    height: 500px;
+}
+
+.game_boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border: 1px solid;
+}
+
+.game_boxes:hover {
+    cursor: pointer;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: blanchedalmond;
+}
+
+button {
+    padding: 5px 50px;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.changeColor {
+    background-color: lightcoral;
+}
+
+.changeColor2 {
+    background-color: aquamarine;
+}
+
+.disable {
+    pointer-events: none;
+}

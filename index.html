@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic_tac_toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div class="announce"></div>
+    <div id="main_container">
+        <div class="game_container">
+            <!-- change class name so they can be grouped in JS?  -->
+            <div class="game_boxes row_one row_four row_seven"></div>
+            <div class="game_boxes row_one row_five"></div>
+            <div class="game_boxes row_one row_six row_eight"></div>
+            <div class="game_boxes row_two row_four"></div>
+            <div class="game_boxes row_two row_five row_seven row_eight"></div>
+            <div class="game_boxes row_two row_six"></div>
+            <div class="game_boxes row_three row_four"></div>
+            <div class="game_boxes row_three row_five"></div>
+            <div class="game_boxes row_three row_six row_seven row_eight"></div>
+        </div>
+    </div>
+    <div class="reset"><button type="button" id="resetBtn">Reset</button></div>
+</body>
+</html>
