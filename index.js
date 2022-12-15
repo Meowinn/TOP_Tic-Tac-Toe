@@ -137,10 +137,6 @@ for(const row4 of row_four) {
  
 }
 
-
-
-
-
 const reset = document.getElementById('resetBtn');
 reset.addEventListener('click', function(){
     location.reload();
