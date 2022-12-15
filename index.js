@@ -22,13 +22,11 @@ const board_object = () => {
                 game_box.style.pointerEvents = "none";
             }
         }
-        
     }
     return {board_array, board_row1, joiner}
 }
 
 const gameBoard = board_object();
-
 
 const playerOne = (player1, marker) => {
     return{player1, marker}
@@ -40,8 +38,6 @@ const playerTwo = (player2, marker) => {
 
 const p1 = playerOne('Tim', 'X');
 const p2 = playerTwo('Bella', 'O');
-
-
 
 for(const game_box of game_boxes){
     game_box.addEventListener('click', function(){
@@ -81,15 +77,6 @@ for(const row1 of row_one) {
    
 }
 
-
-
-
-
-
-
-
-
-
 const testing = document.getElementById('testing');
 testing.addEventListener('click', function(){
     gameBoard.board_array.push("Test");
@@ -100,10 +87,3 @@ const reset = document.getElementById('resetBtn');
 reset.addEventListener('click', function(){
     location.reload();
 })
-
-
-
-
-
-
-
